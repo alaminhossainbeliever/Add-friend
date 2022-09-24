@@ -21,7 +21,8 @@ console.log(friend);
     setFriend(uniqe)
    
   }
-  let remove=(item)=>{
+  let remove=(id)=>{
+    setFriend(friend.filter(item=>item.username!==id.username))
     console.log("worked");
 
   }
